@@ -1,0 +1,12 @@
+bin/*
+*.db
+*.ipch
+*.bsc
+
+
+**/Debug/*
+**/Release/*
+**/Output/*
+**/intermediate/*
+*.opendb
+

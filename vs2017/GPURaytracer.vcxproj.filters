@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{cddc705d-70d5-4e78-8a82-9678e5812982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party">
+      <UniqueIdentifier>{0650dbde-b093-4cf2-a71a-255542f53944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\glad">
+      <UniqueIdentifier>{e3c05794-4f52-4acf-84a5-b6f545fc38d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\KHR">
+      <UniqueIdentifier>{fc3a2afe-ab0e-4150-aa92-cfe506385328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shaders">
+      <UniqueIdentifier>{e8ca8359-51c8-4ce8-9772-d3f60925d5c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\third_party\glad\glad.c">
+      <Filter>src\third_party\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CGPUDevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TVec3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils..cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\third_party\glad\glad_wgl.c">
+      <Filter>src\third_party\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCamera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\third_party\glad\glad.h">
+      <Filter>src\third_party\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\third_party\KHR\khrplatform.h">
+      <Filter>src\third_party\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CGPUDevice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TVec3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\third_party\stb_image.h">
+      <Filter>src\third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\third_party\stb_image_resize.h">
+      <Filter>src\third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\third_party\stb_image_write.h">
+      <Filter>src\third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TGPUStructs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\third_party\glad\glad_wgl.h">
+      <Filter>src\third_party\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CCamera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\shaders\output.frag.glsl">
+      <Filter>src\shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\output.vert.glsl">
+      <Filter>src\shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\common.h.glsl">
+      <Filter>src\shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\raytracer.comp.glsl">
+      <Filter>src\shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\raymarching.h.glsl">
+      <Filter>src\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
